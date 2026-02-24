@@ -1,10 +1,18 @@
 cask "pylon" do
   version "0.1.0"
-  sha256 "e937b8a986b4709cbda3798366a3acf05b7116459deb3e03b9e8334c42584760"
 
-  url "https://github.com/wagmint/pylon/releases/download/v#{version}/Pylon_#{version}_x64.dmg"
+  on_arm do
+    url "https://github.com/wagmint/pylon/releases/download/menubar-v0.1.0/Pylon_0.1.0_aarch64.dmg"
+    sha256 "dd8a944cc338f6cd108564015c3d641239cda9d2bed901b79593b2e2d125a2e3"
+  end
+
+  on_intel do
+    url "https://github.com/wagmint/pylon/releases/download/menubar-v0.1.0/Pylon_0.1.0_x64.dmg"
+    sha256 "2415f055750b9b7bc3f34524fc383db7efc4057b8eaa8731707f4c4afca48cca"
+  end
+
   name "Pylon"
-  desc "Menu bar app for monitoring AI coding agents"
+  desc "Menu bar monitoring utility"
   homepage "https://github.com/wagmint/pylon"
 
   app "Pylon.app"
