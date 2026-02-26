@@ -8,7 +8,7 @@ cask "hexdeck" do
 
   on_intel do
     url "https://github.com/wagmint/hexdeck/releases/download/menubar-v0.4.2/Hexdeck_0.4.2_x64.dmg"
-    sha256 "a24fec17589053929b4a931ddcce5c3c8cc885d47121ed2bca18152b1bd71452"
+    sha256 "570cf5b95d9dfee4b723dfb0a12ede16e5b850395e55aad34005757c9e0c4e50"
   end
 
   name "Hexdeck"
