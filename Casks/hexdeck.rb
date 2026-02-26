@@ -3,7 +3,7 @@ cask "hexdeck" do
 
   on_arm do
     url "https://github.com/wagmint/hexdeck/releases/download/menubar-v0.4.2/Hexdeck_0.4.2_aarch64.dmg"
-    sha256 "05abd7fb603c4fa7c56d315d8c9fd2dcd16353c3fa04d8aff662f98448b9667e"
+    sha256 "089df9d6bfc64b95842c808e24470eedac3fd1c0aa2113699c03efcecaa053ef"
   end
 
   on_intel do
