@@ -1,14 +1,14 @@
 cask "hexdeck" do
-  version "0.5.37"
+  version "0.6.0"
 
   on_arm do
-    url "https://github.com/wagmint/hexdeck/releases/download/menubar-v0.5.37/Hexdeck_0.5.37_aarch64.dmg"
-    sha256 "49a4380da554eec2fb3a9466c51396692310eac6dc666926d910793c8927e5ce"
+    url "https://github.com/wagmint/hexdeck/releases/download/menubar-v0.6.0/Hexdeck_0.6.0_aarch64.dmg"
+    sha256 "f45ec62d938e815b9feef64dab5c1603d4822e41f6eb45513d43360b3b2964a8"
   end
 
   on_intel do
-    url "https://github.com/wagmint/hexdeck/releases/download/menubar-v0.5.37/Hexdeck_0.5.37_x64.dmg"
-    sha256 "6f4a64453cfe478b44beae8e9e29f9a58311a1eb3fda26825df929e5d0612718"
+    url "https://github.com/wagmint/hexdeck/releases/download/menubar-v0.6.0/Hexdeck_0.6.0_x64.dmg"
+    sha256 "db057d71129386eecdde5a2be80d60c1fdd1a9c0a3cb8445ffb308470751ca83"
   end
 
   name "Hexdeck"
